@@ -159,6 +159,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Extensions\HtmlHelperExtension.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1071,6 +1072,15 @@
     <Content Include="Theme\plugins\datatables\extensions\TableTools\Readme.md" />
     <Content Include="Theme\plugins\input-mask\phone-codes\phone-be.json" />
     <Content Include="Theme\plugins\input-mask\phone-codes\phone-codes.json" />
+    <Content Include="Views\Shared\_LayoutFooterPartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutBreadcrumbPartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutHeaderPartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutLeftSidePartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutMessagePartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutNotificationPartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutTaskPartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutUserAccountPartial.cshtml" />
+    <Content Include="Views\Shared\_LayoutSidebarMenuPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
