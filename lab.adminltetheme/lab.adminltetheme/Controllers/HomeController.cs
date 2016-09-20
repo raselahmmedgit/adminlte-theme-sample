@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using lab.adminltetheme.Helpers;
 
 namespace lab.adminltetheme.Controllers
 {
@@ -13,5 +14,10 @@ namespace lab.adminltetheme.Controllers
             return View();
         }
 
+        [UserAuthorize]
+        public ActionResult GetAll()
+        {
+            return View();
+        }
     }
 }
